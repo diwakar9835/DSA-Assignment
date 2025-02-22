@@ -15,6 +15,7 @@
 // ai != bi
 // 1 <= ai , bi <= n
 
+
 // Solution
 
 #include <iostream>
