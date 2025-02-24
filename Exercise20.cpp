@@ -11,6 +11,8 @@
 // 1 <= n <= 1000
 // 0 <= trust.length <= 104
 // trust[i].length == 2
+
+
 // All the pairs of trust are unique.
 // ai != bi
 // 1 <= ai , bi <= n
