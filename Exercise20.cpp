@@ -14,6 +14,7 @@
 // trust[i].length == 2
 // All the pairs of trust are unique.
 // ai != bi
+\
 // 1 <= ai , bi <= n
 
 
