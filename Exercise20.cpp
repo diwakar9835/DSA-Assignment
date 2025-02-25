@@ -9,6 +9,7 @@
 // Return the label of the town judge if the town judge exists and can be identified, or return -1 otherwise.
 // Constraints:
 // 1 <= n <= 1000
+
 // 0 <= trust.length <= 104
 // trust[i].length == 2
 // All the pairs of trust are unique.
