@@ -11,7 +11,6 @@
 #include <vector>
 #include <climits>
 
-
 using namespace std;
 
 bool increasingTriplet(vector<int>& nums) {
