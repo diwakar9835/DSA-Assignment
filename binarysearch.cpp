@@ -30,6 +30,7 @@ public:
 void inorderTraversal(TreeNode* root) {
     if (root == nullptr) {
         return;
+        
     }
 
     inorderTraversal(root->left);
