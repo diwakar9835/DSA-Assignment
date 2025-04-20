@@ -6,6 +6,7 @@ struct TreeNode {
     TreeNode *right;
     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
 };
+
 class Solution {
 public:
     TreeNode* insertIntoBST(TreeNode* root, int val) {
