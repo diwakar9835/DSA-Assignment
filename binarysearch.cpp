@@ -18,7 +18,6 @@ if (val < root->val) {
         } else {
             root->right = insertIntoBST(root->right, val);
         }
-
         return root;
     }
 };
