@@ -9,6 +9,7 @@ struct TreeNode {
 };
 class Solution {
 public:
+
     TreeNode* insertIntoBST(TreeNode* root, int val) {
         if (root == nullptr) {
             return new TreeNode(val);
