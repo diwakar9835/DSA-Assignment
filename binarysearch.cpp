@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 struct TreeNode {
-    int val;
+
+int val;
     TreeNode *left;
     TreeNode *right;
 
