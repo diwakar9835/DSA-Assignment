@@ -4,8 +4,7 @@ struct TreeNode {
 int val;
     TreeNode *left;
     TreeNode *right;
-    TreeNode(int x) : val(x), left(nullptr), right(nullp
-tr) {}
+    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
 };
 class Solution {
 public:
