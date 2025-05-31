@@ -1,18 +1,20 @@
 #include <iostream>
 using namespace std;
+
 struct TreeNode {
-int val;
+    int val;
     TreeNode *left;
     TreeNode *right;
     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
 };
-class Solution 
+
+class Solution {
 public:
     TreeNode* insertIntoBST(TreeNode* root, int val) {
         if (root == nullptr) {
             return new TreeNode(val);
         }
-if (val < root->val) {
+        if (val < root->val) {
             root->left = insertIntoBST(root->left, val);
         } else {
             root->right = insertIntoBST(root->right, val);
@@ -24,9 +26,7 @@ if (val < root->val) {
 void inorderTraversal(TreeNode* root) {
     if (root == nullptr) {
         return;
-        
     }
-
     inorderTraversal(root->left);
     cout << root->val << " ";
     inorderTraversal(root->right);
@@ -58,7 +58,8 @@ int main() {
     cout << "Inorder traversal after insertion (Example 2): ";
     inorderTraversal(root2);
     cout << endl;
-// Example 3
+
+    // Example 3
     TreeNode* root3 = new TreeNode(4);
     root3->left = new TreeNode(2);
     root3->right = new TreeNode(7);
@@ -68,7 +69,6 @@ int main() {
     cout << "Inorder traversal after insertion (Example 3): ";
     inorderTraversal(root3);
     cout << endl;
+
     return 0;
 }
-
-
