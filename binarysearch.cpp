@@ -17,9 +17,7 @@ public:
         } else {
             root->right = insertIntoBST(root->right, val);
         }
-        return root;
-
-        
+        return root
     }
 };
 
