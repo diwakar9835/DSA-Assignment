@@ -13,6 +13,7 @@ public:
             return new Tree
                 Node(val);
         }
+
         
         if (val < root->val) {
             root->left = insertIntoBST(root->left, val);
